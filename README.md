@@ -1,8 +1,8 @@
 
 
-## Code Example
+## How to use
 
-sub-downloader.js c://movies
+node sub-downloader.js [path]
 
 ## Description
 
