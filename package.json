@@ -1,0 +1,30 @@
+{
+  "name": "sub-download",
+  "version": "0.1.4",
+  "description": "download subtitles from subscene to all sub-directories ",
+  "dependencies": {
+    "async": "^1.4.2",
+    "chalk": "^1.1.1",
+    "cheerio": "^0.19.0",
+    "request": "^2.61.0",
+	"video-extensions":""
+  },
+  "devDependencies": {},
+   "bin": {
+    "sub-download": "sub-download-list.js"
+	
+  },
+  "scripts": {
+	"sub":"node sub-download-list.js",
+    "test": ""
+  },
+  "author": "jodevsa https://github.com/jodevsa , jodevak http:github.com/jodevak",
+  "license": "ISC",
+  "keywords": [
+    "subtitles",
+    "movies",
+    "sub",
+    "scrapper",
+    "web"
+  ]
+}
